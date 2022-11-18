@@ -1,0 +1,191 @@
+{
+  "Controls": {
+    "window_title_main": "tomb3 Config Tool",
+    "menu_file": "_File",
+    "command_reload": "_Reload",
+    "command_save": "_Save",
+    "command_launch_game": "_Launch tomb3",
+    "command_launch_gold": "Launch _TLA",
+    "command_exit": "E_xit",
+    "menu_tools": "_Tools",
+    "command_restore": "_Restore Defaults",
+    "command_import": "_Import",
+    "command_export": "_Export",
+    "menu_help": "_Help",
+    "command_github": "_GitHub",
+    "command_about": "_About",
+    "file_dialog_filter": "JSON Files",
+    "checkbox_enabled": "Enabled",
+    "spinner_msg_invalid_number": "The input string is not a valid number",
+    "spinner_msg_comparison_failed": "The input value must be between {0} and {1}",
+    "spinner_increase": "Increase value",
+    "spinner_decrease": "Decrease value",
+    "label_saved": "Saved",
+    "label_unsaved": "Unsaved",
+    "command_close": "_Close",
+    "msgbox_unsaved_changes": "Do you want to save the changes you have made?",
+    "msgbox_unsaved_changes_reload": "Are you sure you want to reload and lose the changes you have made?",
+    "window_title_about": "About tomb3 Config Tool",
+    "label_about_details": "Visit the tomb3 Config Tool GitHub page for further information.",
+    "link_github": "Go to GitHub"
+  },
+  "Enums": {
+    "sophia_rings": {
+      "0": "PC",
+      "1": "PSX",
+      "2": "Improved PC"
+    },
+    "gui_scale": {
+      "0.50000": "50%",
+      "0.70000": "70%",
+      "1.00000": "100%",
+      "1.50000": "150%",
+      "2.00000": "200%"
+    },
+    "pc_psx": {
+      "0": "PC",
+      "1": "PSX"
+    },
+    "bar_position": {
+      "0": "PC",
+      "1": "Improved PC",
+      "2": "PSX"
+    },
+    "music_state": {
+      "1.00000": "Full",
+      "0.80000": "Quiet",
+      "0.00000": "None"
+    }
+  },
+  "Categories": {
+    "effects": "Effects",
+    "gui_scale": "GUI scale",
+    "gui_style": "GUI style",
+    "lara": "Lara's moveset",
+    "misc": "Misc",
+    "sound": "Sound",
+    "view": "View"
+  },
+  "Properties": {
+    "footprints": {
+      "Title": "Footprints",
+      "Description": "Enables PSX footprints to be displayed."
+    },
+    "improved_lasers": {
+      "Title": "Improved lasers",
+      "Description": "Enables properly scaled lasers and changes them into semitransparent quads instead of opaque lines."
+    },
+    "improved_rain": {
+      "Title": "Improved rain",
+      "Description": "Enables properly scaled rain; changes it into semitransparent quads instead of opaque lines; and makes the color match PSX."
+    },
+    "kayak_mist": {
+      "Title": "Kayak mist",
+      "Description": "Restores a broken mist effect on the Kayak."
+    },
+    "sophia_rings": {
+      "Title": "Sophia rings",
+      "Description": "Changes how Sophia's rings are displayed.\n - PC: original rings.\n - PSX: clear semitransparent rings like PSX.\n - Improved PC: original PC rings, but with improved texture UVs."
+    },
+    "uwdust": {
+      "Title": "Underwater dust",
+      "Description": "Restores the PSX underwater particles effect."
+    },
+    "upv_wake": {
+      "Title": "UPV wake",
+      "Description": "Restores the PSX wake effect on the UPV."
+    },
+    "GUI_Scale": {
+      "Title": "GUI scale",
+      "Description": "Changes the scale of in-game elements, such as bars."
+    },
+    "INV_Scale": {
+      "Title": "Inventory GUI scale",
+      "Description": "Changes the scale of in-inventory elements, such as text boxes."
+    },
+    "ammo_counter": {
+      "Title": "Ammo counter",
+      "Description": "Changes how the ammo counter is displayed. Note that selecting PSX bar position will override this setting, enforcing the PSX ammo counter.\n - PC: original PC positions.\n - PSX: PSX ammo counter."
+    },
+    "bar_pos": {
+      "Title": "Bar position",
+      "Description": "Changes the position of GUI bars.\n - PC: original PC positions.\n - PSX: PSX positions.\n - Improved PC: same as PC, but flips the sprint and air bars."
+    },
+    "bar_mode": {
+      "Title": "Bar mode",
+      "Description": "Changes the display of GUI bars.\n - PC: original PC bars.\n - PSX: PSX bars."
+    },
+    "improved_poison_bar": {
+      "Title": "Improved poison bar",
+      "Description": "Enables a PSX-like poison bar instead of the original flat yellow bar."
+    },
+    "pickup_display": {
+      "Title": "Pickup display",
+      "Description": "Restores the missing display of items when Lara picks them up."
+    },
+    "psx_boxes": {
+      "Title": "PSX boxes",
+      "Description": "Enables PSX text boxes."
+    },
+    "psx_text_colors": {
+      "Title": "PSX text colors",
+      "Description": "Enables PSX text colors."
+    },
+    "shadow_mode": {
+      "Title": "Shadow mode",
+      "Description": "Changes how shadows are displayed.\n - PC: original octagon shadow.\n - PSX: PSX circle sprite shadow."
+    },
+    "crawl_tilt": {
+      "Title": "Crawl tilt",
+      "Description": "Enables Lara aligning herself with the floor when crawling."
+    },
+    "duck_roll": {
+      "Title": "Duck roll",
+      "Description": "Enables the duck roll action. When ducked, press the Sprint button."
+    },
+    "flexible_crawl": {
+      "Title": "Flexible crawl",
+      "Description": "Provides less lag in Lara's crawl moveset and restores the run-to-duck and the sprint-to-duck animations."
+    },
+    "flexible_sprint": {
+      "Title": "Flexible sprint",
+      "Description": "Removes the restriction to start a sprint only when the bar is full."
+    },
+    "slide_to_run": {
+      "Title": "Slide to run",
+      "Description": "Restores the slide-to-run animation. Simply hold forward at the end of sliding a slope."
+    },
+    "disable_ckey": {
+      "Title": "Colorkey",
+      "Description": "Only turn this option OFF if you encounter the transparency bug on Nvidia cards. It might cause other minor issues."
+    },
+    "disable_gamma": {
+      "Title": "Gamma",
+      "Description": "Turning OFF this option allows for more accurate RGB output."
+    },
+    "dozy": {
+      "Title": "DOZY",
+      "Description": "Enables the fly cheat.\n - Press and hold the D O Z Y keys on your keyboard to fly.\n - Press the walk button to get out of the cheat."
+    },
+    "psx_crystal_sfx": {
+      "Title": "PSX crystal SFX",
+      "Description": "Enables the \"woosh\" PSX SFX when collecting crystals instead of the PC heal SFX."
+    },
+    "custom_water_color": {
+      "Title": "PSX water color",
+      "Description": "Enables PSX water color."
+    },
+    "inv_music_mute": {
+      "Title": "Inventory music muting",
+      "Description": "Changes the handling of music in the inventory.\n - None: continue to play music at the normal volume.\n - Quiet: continue to play music but at a reduced volume.\n - Full: pause the music while in the inventory."
+    },
+    "unwater_music_mute": {
+      "Title": "Underwater music muting",
+      "Description": "Changes the handling of music while underwater.\n - None: continue to play music at the normal volume.\n - Quiet: continue to play music but at a reduced volume.\n - Full: pause the music while underwater."
+    },
+    "psx_fov": {
+      "Title": "PSX FOV",
+      "Description": "Enables PSX field of view."
+    }
+  }
+}

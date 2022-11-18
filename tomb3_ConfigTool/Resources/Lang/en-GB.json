@@ -1,0 +1,15 @@
+{
+  "Properties": {
+    "improved_rain": {
+      "Description": "Enables properly scaled rain; changes it into semitransparent quads instead of opaque lines; and makes the colour match PSX."
+    },
+    "psx_text_colors": {
+      "Title": "PSX text colours",
+      "Description": "Enables PSX text colours."
+    },
+    "custom_water_color": {
+      "Title": "PSX water colour",
+      "Description": "Enables PSX water colour."
+    }
+  }
+}
