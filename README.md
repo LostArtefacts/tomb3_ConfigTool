@@ -1,5 +1,8 @@
 # tomb3 Configuration Tool
-_A tool for modifying the settings for [tomb3](https://github.com/Trxyebeep/tomb3)._
+_A GUI tool for modifying the settings for [tomb3](https://github.com/Trxyebeep/tomb3)._
+
+![image](https://user-images.githubusercontent.com/33758420/202771532-3e6d0cf8-aab2-42fe-8a0a-2db69a2d45f5.png)
+
 
 ## Prerequisites
 * [.NET Core 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
