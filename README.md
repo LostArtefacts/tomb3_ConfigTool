@@ -1,7 +1,7 @@
 # tomb3 Configuration Tool
 _A GUI tool for modifying the settings for [tomb3](https://github.com/Trxyebeep/tomb3)._
 
-![image](https://user-images.githubusercontent.com/33758420/202771532-3e6d0cf8-aab2-42fe-8a0a-2db69a2d45f5.png)
+![tomb3 Config Tool](resources/gui.png)
 
 
 ## Prerequisites
@@ -13,8 +13,9 @@ _A GUI tool for modifying the settings for [tomb3](https://github.com/Trxyebeep/
 3. Launch tomb3_ConfigTool.exe.
 4. Change as many settings as desired. Press `Save` to write these values to disk so that tomb3 can read them.
 5. Shortcut buttons are provided to launch the game:
+   * Use the `Launch Setup` button to open the original setup window.
    * Use the `Launch tomb3` button to start the normal game.
-   * Use the `Launch TLA` button to start the gold edition of the game (The Lost Artefact).
+   * Use the `Launch Gold` button to start the gold edition of the game (The Lost Artefact).
 6. Use the `Restore Defaults` button at any time to revert to the default settings.
 
 Settings can also be exported and imported via the `Tools` menu options.
