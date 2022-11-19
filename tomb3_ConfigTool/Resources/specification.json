@@ -1,0 +1,235 @@
+{
+  "Enums": {
+    "sophia_rings": [
+      "0",
+      "1",
+      "2"
+    ],
+    "gui_scale": [
+      "0.50000",
+      "0.70000",
+      "1.00000",
+      "1.50000",
+      "2.00000"
+    ],
+    "pc_psx": [
+      "0",
+      "1"
+    ],
+    "bar_position": [
+      "0",
+      "2",
+      "1"
+    ],
+    "music_state": [
+      "0.00000",
+      "0.80000",
+      "1.00000"
+    ]
+  },
+  "CategorisedProperties": [
+    {
+      "ID": "effects",
+      "Image": "Graphics/graphic1.jpg",
+      "Properties": [
+        {
+          "Field": "footprints",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "improved_lasers",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "improved_rain",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "kayak_mist",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "sophia_rings",
+          "DataType": "Enum",
+          "EnumKey": "sophia_rings",
+          "DefaultValue": "1"
+        },
+        {
+          "Field": "uwdust",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "upv_wake",
+          "DataType": "Bool",
+          "DefaultValue": true
+        }
+      ]
+    },
+    {
+      "ID": "gui_scale",
+      "Image": "Graphics/graphic2.jpg",
+      "Properties": [
+        {
+          "Field": "GUI_Scale",
+          "DataType": "Enum",
+          "EnumKey": "gui_scale",
+          "DefaultValue": "1.00000"
+        },
+        {
+          "Field": "INV_Scale",
+          "DataType": "Enum",
+          "EnumKey": "gui_scale",
+          "DefaultValue": "1.00000"
+        }
+      ]
+    },
+    {
+      "ID": "gui_style",
+      "Image": "Graphics/graphic3.jpg",
+      "Properties": [
+        {
+          "Field": "ammo_counter",
+          "DataType": "Enum",
+          "EnumKey": "pc_psx",
+          "DefaultValue": "0"
+        },
+        {
+          "Field": "bar_pos",
+          "DataType": "Enum",
+          "EnumKey": "bar_position",
+          "DefaultValue": "0"
+        },
+        {
+          "Field": "bar_mode",
+          "DataType": "Enum",
+          "EnumKey": "pc_psx",
+          "DefaultValue": "1"
+        },
+        {
+          "Field": "improved_poison_bar",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "pickup_display",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "psx_boxes",
+          "DataType": "Bool",
+          "DefaultValue": false
+        },
+        {
+          "Field": "psx_text_colors",
+          "DataType": "Bool",
+          "DefaultValue": false
+        },
+        {
+          "Field": "shadow_mode",
+          "DataType": "Enum",
+          "EnumKey": "pc_psx",
+          "DefaultValue": "1"
+        }
+      ]
+    },
+    {
+      "ID": "lara",
+      "Image": "Graphics/graphic4.jpg",
+      "Properties": [
+        {
+          "Field": "crawl_tilt",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "duck_roll",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "flexible_crawl",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "flexible_sprint",
+          "DataType": "Bool",
+          "DefaultValue": true
+        },
+        {
+          "Field": "slide_to_run",
+          "DataType": "Bool",
+          "DefaultValue": true
+        }
+      ]
+    },
+    {
+      "ID": "misc",
+      "Image": "Graphics/graphic5.jpg",
+      "Properties": [
+        {
+          "Field": "disable_ckey",
+          "DataType": "Bool",
+          "DefaultValue": true,
+          "Flip": true
+        },
+        {
+          "Field": "disable_gamma",
+          "DataType": "Bool",
+          "DefaultValue": false,
+          "Flip": true
+        },
+        {
+          "Field": "dozy",
+          "DataType": "Bool",
+          "DefaultValue": false
+        },
+        {
+          "Field": "psx_crystal_sfx",
+          "DataType": "Bool",
+          "DefaultValue": false
+        },
+        {
+          "Field": "custom_water_color",
+          "DataType": "Bool",
+          "DefaultValue": true
+        }
+      ]
+    },
+    {
+      "ID": "sound",
+      "Image": "Graphics/graphic6.jpg",
+      "Properties": [
+        {
+          "Field": "inv_music_mute",
+          "DataType": "Enum",
+          "EnumKey": "music_state",
+          "DefaultValue": "0.80000"
+        },
+        {
+          "Field": "unwater_music_mute",
+          "DataType": "Enum",
+          "EnumKey": "music_state",
+          "DefaultValue": "0.80000"
+        }
+      ]
+    },
+    {
+      "ID": "view",
+      "Image": "Graphics/graphic7.jpg",
+      "Properties": [
+        {
+          "Field": "psx_fov",
+          "DataType": "Bool",
+          "DefaultValue": false
+        }
+      ]
+    }
+  ]
+}
