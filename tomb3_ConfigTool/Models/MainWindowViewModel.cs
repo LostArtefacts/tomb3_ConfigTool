@@ -179,36 +179,38 @@ public class MainWindowViewModel : BaseLanguageViewModel
         return IsEditorDirty;
     }
 
-    private RelayCommand _launchGameCommand;
+    private RelayCommand _launchSetupCommand, _launchGameCommand, _launchGoldCommand;
+    public ICommand LaunchSetupCommand
+    {
+        get => _launchSetupCommand ??= new RelayCommand(LaunchSetup);
+    }
+
     public ICommand LaunchGameCommand
     {
         get => _launchGameCommand ??= new RelayCommand(LaunchGame);
     }
 
-    private void LaunchGame()
-    {
-        if (!ConfirmEditorSaveState())
-        {
-            return;
-        }
-
-        try
-        {
-            ProcessUtils.Start(Tomb3Constants.ExecutableName);
-        }
-        catch (Exception e)
-        {
-            MessageBoxUtils.ShowError(e.ToString(), ViewText["window_title_main"]);
-        }
-    }
-
-    private RelayCommand _launchGoldCommand;
     public ICommand LaunchGoldCommand
     {
         get => _launchGoldCommand ??= new RelayCommand(LaunchGoldGame);
     }
 
+    private void LaunchGame()
+    {
+        LaunchGameExe();
+    }
+
+    private void LaunchSetup()
+    {
+        LaunchGameExe(Tomb3Constants.SetupArgs);
+    }
+
     private void LaunchGoldGame()
+    {
+        LaunchGameExe(Tomb3Constants.GoldArgs);
+    }
+
+    private void LaunchGameExe(string arguments = null)
     {
         if (!ConfirmEditorSaveState())
         {
@@ -217,7 +219,7 @@ public class MainWindowViewModel : BaseLanguageViewModel
 
         try
         {
-            ProcessUtils.Start(Tomb3Constants.ExecutableName, Tomb3Constants.GoldArgs);
+            ProcessUtils.Start(Tomb3Constants.ExecutableName, arguments);
         }
         catch (Exception e)
         {

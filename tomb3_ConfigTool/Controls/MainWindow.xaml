@@ -144,23 +144,22 @@
                     <Button
                         Grid.Column="1" 
                         Margin="7,0,0,0"
-                        Command="{Binding LaunchGameCommand}"
-                        Content="{Binding ViewText[command_launch_game]}"
+                        Command="{Binding LaunchSetupCommand}"
+                        Content="{Binding ViewText[command_launch_setup]}"
                         Style="{StaticResource ButtonStyle}"/>
 
                     <Button
                         Grid.Column="2" 
                         Margin="7,0,0,0"
-                        Command="{Binding LaunchGoldCommand}"
-                        Content="{Binding ViewText[command_launch_gold]}"
+                        Command="{Binding LaunchGameCommand}"
+                        Content="{Binding ViewText[command_launch_game]}"
                         Style="{StaticResource ButtonStyle}"/>
 
                     <Button
                         Grid.Column="3"
                         Margin="7,0,0,0"
-                        Command="{Binding ExitCommand}"
-                        CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"
-                        Content="{Binding ViewText[command_exit]}"
+                        Command="{Binding LaunchGoldCommand}"
+                        Content="{Binding ViewText[command_launch_gold]}"
                         Style="{StaticResource ButtonStyle}"/>
                 </Grid>
             </Grid>
