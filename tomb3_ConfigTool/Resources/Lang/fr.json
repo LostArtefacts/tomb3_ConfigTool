@@ -1,0 +1,192 @@
+{
+  "Controls": {
+    "window_title_main": "tomb3 Config Tool",
+    "menu_file": "_Fichier",
+    "command_reload": "_Recharger",
+    "command_save": "_Sauvegarder",
+    "command_launch_setup": "Lancer Setu_p",
+    "command_launch_game": "Lancer tomb3",
+    "command_launch_gold": "Lancer _Gold",
+    "command_exit": "Fermer",
+    "menu_tools": "_Outils",
+    "command_restore": "_Restaurer paramètres par défaut",
+    "command_import": "_Import",
+    "command_export": "_Export",
+    "menu_help": "_Aide",
+    "command_github": "_GitHub",
+    "command_about": "_A propos",
+    "file_dialog_filter": "JSON Files",
+    "checkbox_enabled": "Activé",
+    "spinner_msg_invalid_number": "La valeur n'est pas un nombre valide",
+    "spinner_msg_comparison_failed": "La valeur doit être entre {0} et {1}",
+    "spinner_increase": "Augmenter la valeur",
+    "spinner_decrease": "Baisser la valeur",
+    "label_saved": "Sauvegardé",
+    "label_unsaved": "Non sauvegardé",
+    "command_close": "_Fermer",
+    "msgbox_unsaved_changes": "Voulez-vous enregistrer vos modifications ?",
+    "msgbox_unsaved_changes_reload": "Êtes-vous sûr de vouloir recharger et perdre vos modifications ?",
+    "window_title_about": "A propos de tomb3 Config Tool",
+    "label_about_details": "Visitez la page Github de tomb3 Config pour plus d'informations.",
+    "link_github": "Aller sur GitHub"
+  },
+  "Enums": {
+    "sophia_rings": {
+      "0": "PC",
+      "1": "PSX",
+      "2": "PC amélioré"
+    },
+    "gui_scale": {
+      "0.50000": "50%",
+      "0.70000": "70%",
+      "1.00000": "100%",
+      "1.50000": "150%",
+      "2.00000": "200%"
+    },
+    "pc_psx": {
+      "0": "PC",
+      "1": "PSX"
+    },
+    "bar_position": {
+      "0": "PC",
+      "1": "PC amélioré",
+      "2": "PSX"
+    },
+    "music_state": {
+      "1.00000": "Oui",
+      "0.80000": "Réduit",
+      "0.00000": "Non"
+    }
+  },
+  "Categories": {
+    "effects": "Effets",
+    "gui_scale": "Taille d'interface",
+    "gui_style": "Style d'interface",
+    "lara": "Mouvements de Lara",
+    "misc": "Divers",
+    "sound": "Son",
+    "view": "Vue"
+  },
+  "Properties": {
+    "footprints": {
+      "Title": "Empreintes de pas",
+      "Description": "Active les empreintes de pas de la version PSX."
+    },
+    "improved_lasers": {
+      "Title": "Lasers améliorés",
+      "Description": "Active les lasers correctement mis à l'échelle et les transforme en quads semi-transparents au lieu de lignes opaques."
+    },
+    "improved_rain": {
+      "Title": "Pluie améliorée",
+      "Description": "Redimensionne correctement la pluie ; la transforme en quads semi-transparents au lieu de lignes opaques ; et remet la couleure de la version PSX."
+    },
+    "kayak_mist": {
+      "Title": "Brume kayak",
+      "Description": "Restaure les effets de brume sur le niveau en kayak."
+    },
+    "sophia_rings": {
+      "Title": "Anneaux Sophia",
+      "Description": "Change la façon dont les anneaux de Sophia sont affichés.\n - PC: anneaux originaux.\n - PSX: anneaux clairs semi-transparents comme sur PSX.\n - PC amélioré: Comme sur la version PC originale, mais avec des textures améliorées."
+    },
+    "uwdust": {
+      "Title": "Poussière sous-marine",
+      "Description": "Restaure la poussière sous-marine de la version PSX."
+    },
+    "upv_wake": {
+      "Title": "Sillage de l'UPV",
+      "Description": "Restaure l'effet de trainnée du sillage de l'UPV comme sur PSX. (UPV = Véhicule sous-marin à propulsion)"
+    },
+    "GUI_Scale": {
+      "Title": "Taille de l'interface",
+      "Description": "Changer la taille des éléments en jeu, comme les barres d'états."
+    },
+    "INV_Scale": {
+      "Title": "Taille de l'interface dans l'inventaire",
+      "Description": "Changer la taille des élements DANS l'inventaire, comme les textes."
+    },
+    "ammo_counter": {
+      "Title": "Compteur de munition",
+      "Description": "Changer comment le compteur de munition est affiché. Notez que la sélection de la position de la barre PSX remplacera ce paramètre, appliquant le compteur de munition PSX.\n - PC: position originale PC.\n - PSX: compteur de munition version PlayStation."
+    },
+    "bar_pos": {
+      "Title": "Position barre d'état",
+      "Description": "Change la position des barres d'état en jeu.\n - PC: position originale PC.\n - PSX: positions version PlayStation.\n - PC amélioré: comme PC, mais intervertit les barres de sprint et d'air."
+    },
+    "bar_mode": {
+      "Title": "Style des barres d'état",
+      "Description": "Changer le style des barres d'état.\n - PC: style original version PC.\n - PSX: Style version PlayStation."
+    },
+    "improved_poison_bar": {
+      "Title": "Barre d'empoisonnement améliorée",
+      "Description": "Active une barre d'empoisonnement avec un style de la version PlayStation au lieu de la barre jaune plate d'origine."
+    },
+    "pickup_display": {
+      "Title": "Visualisation collectible récupéré",
+      "Description": "Restaure le fait que les collectibles s'affichent à l'écran lorsque Lara les récupère."
+    },
+    "psx_boxes": {
+      "Title": "Boites de texte PSX",
+      "Description": "Active les boites de texte de la version PlayStation."
+    },
+    "psx_text_colors": {
+      "Title": "Couleurs des textes PSX",
+      "Description": "Active les couleurs des textes de la version PlayStation."
+    },
+    "shadow_mode": {
+      "Title": "Mode d'ombre",
+      "Description": "Change le mode d'affichage des ombres.\n - PC: ombre originale octogonale.\n - PSX: Ombre en cercle diffu comme sur PlayStation."
+    },
+    "crawl_tilt": {
+      "Title": "Inclinaison de rampement",
+      "Description": "Permet à Lara de s'aligner avec le sol lorsqu'elle rampe."
+    },
+    "duck_roll": {
+      "Title": "Roulade",
+      "Description": "Active l'action de roulade. Une fois en position accroupie, appuyez sur le bouton Sprint pour activer ce mouvement."
+    },
+    "flexible_crawl": {
+      "Title": "Mouvements plus fluides",
+      "Description": "Permet moins de décalage dans l'ensemble des mouvements de Lara et restaure les animations courir-ramper et sprinter-ramper"
+    },
+    "flexible_sprint": {
+      "Title": "Supprimer restriction sprint",
+      "Description": "Enlève la restriction qui empêche Lara de reprendre un sprint tant que la barre d'état du sprint n'est pas reremplie."
+    },
+    "slide_to_run": {
+      "Title": "Glisser-Courrir",
+      "Description": "Restaure l'animation Glisser-Courrir. Maintenez simplement vers l'avant à la fin du glissement d'une pente."
+    },
+    "disable_ckey": {
+      "Title": "Colorkey",
+      "Description": "Ne désactivez cette option que si vous rencontrez le bug de transparence sur les cartes graphiques Nvidia. Cela pourrait causer d'autres problèmes mineurs."
+    },
+    "disable_gamma": {
+      "Title": "Gamma",
+      "Description": "La désactivation de cette option permet une sortie RVB plus précise."
+    },
+    "dozy": {
+      "Title": "Triche - Cheats",
+      "Description": "Active le fait que Lara puisse voler dans les niveaux, en utilisant les commandes de nage.\n - Presser en même temps les touches D O W Y (avec un clavier français AZERTY) pour activer l'option.\n - Presser la touche Marcher pour revenir au sol."
+    },
+    "psx_crystal_sfx": {
+      "Title": "SFX Cristaux PSX",
+      "Description": "Active le \"woosh\" à la collecte d'un cristal comme sur la version PlayStation à la place du SFX de soin de la version PC"
+    },
+    "custom_water_color": {
+      "Title": "Couleur de l'eau PSX",
+      "Description": "Active la couleur de l'eau de la version PlayStation."
+    },
+    "inv_music_mute": {
+      "Title": "Musique en sourdine dans l'inventaire",
+      "Description": "Modifie la gestion de la musique dans l'inventaire.\n - Non: continue de jouer la musique au volume normal.\n - Réduit: continue de jouer la musique à un volume réduit.\n - Oui: Met en pause la musique dans l'inventaire."
+    },
+    "unwater_music_mute": {
+      "Title": "Musique en sourdine dans l'eau",
+      "Description": "Modifie la gestion de la musique en étant sous l'eau.\n - Non: continue de jouer la musique au volume normal.\n - Réduit: continue de jouer la musique à un volume réduit.\n - Oui: Met en pause la musique sous l'eau."
+    },
+    "psx_fov": {
+      "Title": "Champ de vision PSX",
+      "Description": "Active le champ de vision de la version PlayStation."
+    }
+  }
+}

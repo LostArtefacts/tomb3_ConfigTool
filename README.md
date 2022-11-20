@@ -26,3 +26,4 @@ Thank you to:
 * Trxyebeep, for guidance on requirements, and testing.
 * rr-, for permission to use the [Tomb1Main](https://github.com/rr-/Tomb1Main) configuration tool as a basis for this project.
 * Tomb of Ash, for making available the [Tomb Raider Classic Style Guide](https://www.tomb-of-ash.com/tomb-raider-classic-style-guides/); all graphics in this application come from this resource.
+* Ste from [tombraiderfrance.com](https://www.tombraiderfrance.com/), for providing French localisation.
