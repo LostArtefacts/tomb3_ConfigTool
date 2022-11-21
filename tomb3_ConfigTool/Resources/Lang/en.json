@@ -128,6 +128,10 @@
       "Title": "PSX boxes",
       "Description": "Enables PSX text boxes."
     },
+    "psx_mono": {
+      "Title": "PSX mono screen colors",
+      "Description": "Enables PSX screen mono colors."
+    },
     "psx_text_colors": {
       "Title": "PSX text colors",
       "Description": "Enables PSX text colors."

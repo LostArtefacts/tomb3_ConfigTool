@@ -128,6 +128,10 @@
       "Title": "Boites de texte PSX",
       "Description": "Active les boites de texte de la version PlayStation."
     },
+    "psx_mono": {
+      "Title": "Couleurs monochromes PSX",
+      "Description": "Activer les couleurs monochromes PlayStation à l'ouverture des menus (Menu pause, statistiques de niveaux, inventaire)."
+    },
     "psx_text_colors": {
       "Title": "Couleurs des textes PSX",
       "Description": "Active les couleurs des textes de la version PlayStation."
