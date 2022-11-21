@@ -20,6 +20,12 @@ _A GUI tool for modifying the settings for [tomb3](https://github.com/Trxyebeep/
 
 Settings can also be exported and imported via the `Tools` menu options.
 
+## Configuration
+The tool itself has a JSON configuration file, which stores the following values.
+* `ExecutableName` - the name of the tomb3 executable file to launch using the shortcut buttons described above.
+* `SetupArgs` - argument(s) to pass to the tomb3 executable used by the `Launch Setup` button.
+* `GoldArgs` - argument(s) to pass to the tomb3 executable used by the `Launch Gold` button.
+
 ## Thanks
 Thank you to:
 
