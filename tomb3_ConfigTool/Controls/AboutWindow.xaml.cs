@@ -15,6 +15,6 @@ public partial class AboutWindow : Window
 
     private void GitHubHyperlink_Click(object sender, RoutedEventArgs e)
     {
-        ProcessUtils.Start(Tomb3Constants.GitHubURL);
+        ProcessUtils.Start(Tomb3Config.GitHubURL);
     }
 }
