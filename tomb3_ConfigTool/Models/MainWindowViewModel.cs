@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
@@ -219,7 +220,7 @@ public class MainWindowViewModel : BaseLanguageViewModel
 
         try
         {
-            ProcessUtils.Start(Tomb3Config.ExecutableName, arguments);
+            ProcessUtils.Start(Path.GetFullPath(Tomb3Config.ExecutableName), arguments);
         }
         catch (Exception e)
         {
