@@ -101,7 +101,7 @@ public class MainWindowViewModel : BaseLanguageViewModel
 
         OpenFileDialog dialog = new()
         {
-            Filter = ViewText["file_dialog_filter"] + Tomb3Constants.ConfigFilterExtension
+            Filter = ViewText["file_dialog_filter"] + Tomb3Config.ConfigFilterExtension
         };
         if (dialog.ShowDialog() ?? false)
         {
@@ -126,7 +126,7 @@ public class MainWindowViewModel : BaseLanguageViewModel
     {
         SaveFileDialog dialog = new()
         {
-            Filter = ViewText["file_dialog_filter"] + Tomb3Constants.ConfigFilterExtension
+            Filter = ViewText["file_dialog_filter"] + Tomb3Config.ConfigFilterExtension
         };
         if (dialog.ShowDialog() ?? false)
         {
@@ -202,12 +202,12 @@ public class MainWindowViewModel : BaseLanguageViewModel
 
     private void LaunchSetup()
     {
-        LaunchGameExe(Tomb3Constants.SetupArgs);
+        LaunchGameExe(Tomb3Config.SetupArgs);
     }
 
     private void LaunchGoldGame()
     {
-        LaunchGameExe(Tomb3Constants.GoldArgs);
+        LaunchGameExe(Tomb3Config.GoldArgs);
     }
 
     private void LaunchGameExe(string arguments = null)
@@ -219,7 +219,7 @@ public class MainWindowViewModel : BaseLanguageViewModel
 
         try
         {
-            ProcessUtils.Start(Tomb3Constants.ExecutableName, arguments);
+            ProcessUtils.Start(Tomb3Config.ExecutableName, arguments);
         }
         catch (Exception e)
         {
@@ -296,7 +296,7 @@ public class MainWindowViewModel : BaseLanguageViewModel
 
     private void GoToGitHub()
     {
-        ProcessUtils.Start(Tomb3Constants.GitHubURL);
+        ProcessUtils.Start(Tomb3Config.GitHubURL);
     }
 
     private RelayCommand _aboutCommand;

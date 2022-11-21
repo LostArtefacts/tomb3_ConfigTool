@@ -1,0 +1,5 @@
+{
+  "ExecutableName": "tomb3.exe",
+  "SetupArgs": "-setup",
+  "GoldArgs": "-gold"
+}
