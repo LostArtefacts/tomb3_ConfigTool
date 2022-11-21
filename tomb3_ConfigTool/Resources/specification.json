@@ -126,6 +126,11 @@
           "DefaultValue": false
         },
         {
+          "Field": "psx_mono",
+          "DataType": "Bool",
+          "DefaultValue": false
+        },
+        {
           "Field": "psx_text_colors",
           "DataType": "Bool",
           "DefaultValue": false
