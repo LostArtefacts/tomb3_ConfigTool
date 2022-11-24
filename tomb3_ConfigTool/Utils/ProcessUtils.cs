@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
+using System.IO;
 
 namespace tomb3_ConfigTool.Utils;
 
@@ -10,7 +12,10 @@ public static class ProcessUtils
         {
             FileName = fileName,
             Arguments = arguments,
-            UseShellExecute = true
+            UseShellExecute = true,
+            WorkingDirectory = new Uri(fileName).IsFile
+                ? Path.GetDirectoryName(fileName)
+                : null
         });
     }
 }
