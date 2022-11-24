@@ -8,7 +8,7 @@ _A GUI tool for modifying the settings for [tomb3](https://github.com/Trxyebeep/
 * [.NET Core 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
 ## Usage
-1. Download the latest release from https://github.com/lahm86/tomb3_ConfigTool/releases/latest.
+1. Download the latest release from https://github.com/lahm86/tomb3_ConfigTool/releases/latest. You can choose the 32-bit (x86) or 64-bit (x64) version to best match your setup.
 2. Place the tomb3_ConfigTool.exe file in the same directory as your tomb3 installation.
 3. Launch tomb3_ConfigTool.exe.
 4. Change as many settings as desired. Press `Save` to write these values to disk so that tomb3 can read them.
