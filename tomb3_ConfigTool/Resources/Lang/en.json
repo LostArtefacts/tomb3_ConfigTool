@@ -16,6 +16,7 @@
     "menu_help": "_Help",
     "command_github": "_GitHub",
     "command_about": "_About",
+    "menu_update_available": "_Update Available",
     "file_dialog_filter": "JSON Files",
     "checkbox_enabled": "Enabled",
     "spinner_msg_invalid_number": "The input string is not a valid number",

@@ -33,6 +33,8 @@ public class MainWindowViewModel : BaseLanguageViewModel
 
         Categories = categories;
         SelectedCategory = Categories.FirstOrDefault();
+
+        UpdateChecker.Instance.UpdateAvailable += TriggerUpdateAvailable;
     }
 
     private void EditorPropertyChanged(object sender, PropertyChangedEventArgs e)
@@ -332,5 +334,42 @@ public class MainWindowViewModel : BaseLanguageViewModel
     private void ShowAboutDialog()
     {
         new AboutWindow().ShowDialog();
+    }
+
+    private bool _updateAvailable;
+    public bool IsUpdateAvailable
+    {
+        get => _updateAvailable;
+        set
+        {
+            if (_updateAvailable != value)
+            {
+                _updateAvailable = value;
+                NotifyPropertyChanged();
+            }
+        }
+    }
+
+    private void TriggerUpdateAvailable(object sender, EventArgs e)
+    {
+        IsUpdateAvailable = true;
+    }
+
+    private RelayCommand _updateCommand;
+    public ICommand UpdateCommand
+    {
+        get => _updateCommand ??= new RelayCommand(LaunchUpdateURL);
+    }
+
+    private void LaunchUpdateURL()
+    {
+        try
+        {
+            ProcessUtils.Start(UpdateChecker.Instance.UpdateURL);
+        }
+        catch (Exception e)
+        {
+            MessageBoxUtils.ShowError(e.ToString(), ViewText["window_title_main"]);
+        }
     }
 }

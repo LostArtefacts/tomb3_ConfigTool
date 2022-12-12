@@ -30,6 +30,15 @@
             Key="F11" />
     </Window.InputBindings>
 
+    <Window.Resources>
+        <ResourceDictionary>
+            <utils:BoolToVisibilityConverter
+                x:Key="BoolToCollapsedConverter"
+                FalseValue="Collapsed"
+                TrueValue="Visible"/>
+        </ResourceDictionary>
+    </Window.Resources>
+
     <DockPanel>
         <Menu
             DockPanel.Dock="Top"
@@ -78,6 +87,12 @@
                     Command="{Binding AboutCommand}"
                     Header="{Binding ViewText[command_about]}"/>
             </MenuItem>
+
+            <MenuItem
+                Header="{Binding ViewText[menu_update_available]}"
+                Command="{Binding UpdateCommand}"
+                FontWeight="Bold"
+                Visibility="{Binding IsUpdateAvailable, Converter={StaticResource BoolToCollapsedConverter}}"/>
         </Menu>
 
         <StatusBar
