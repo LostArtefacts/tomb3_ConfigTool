@@ -191,6 +191,18 @@
     "psx_fov": {
       "Title": "Champ de vision PSX",
       "Description": "Active le champ de vision de la version PlayStation."
+    },
+    "psx_saving": {
+      "Title": "Sauvegarde PSX",
+      "Description": "Active le système de sauvegarde PSX (restreint la sauvegarde uniquement aux cristaux de sauvegarde). Il est recommandé de démarrer une nouvelle partie lorsque vous activez cette option.\nNB L'activation de cette option appliquera les effets spéciaux du cristal PSX."
+    },
+    "blue_crystal_light": {
+      "Title": "Lumière cristal bleu",
+      "Description": "Modifie la lumière émise par les cristaux du vert au bleu.\nNB Les cristaux eux-mêmes resteront verts à moins que les fichiers de niveau ne soient modifiés de manière appropriée. Voir Outils > Textures."
+    },
+    "improved_electricity": {
+      "Title": "Electricité",
+      "Description": "Modifie la manière dont l'effet électrique est affiché.\n - PC : électricité d'origine de la version PC.\n - PSX : lignes semi-transparentes correctement mises à l'échelle avec une couleur plus intense."
     }
   }
 }

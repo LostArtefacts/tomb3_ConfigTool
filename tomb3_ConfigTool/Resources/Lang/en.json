@@ -192,6 +192,18 @@
     "psx_fov": {
       "Title": "PSX FOV",
       "Description": "Enables PSX field of view."
+    },
+    "psx_saving": {
+      "Title": "PSX saving",
+      "Description": "Enables the PSX saving system (restricts saving to savegame crystals only). Starting a new game is recommended when switching this option.\nNB Enabling this option will enforce PSX crystal SFX."
+    },
+    "blue_crystal_light": {
+      "Title": "Blue crystal light",
+      "Description": "Changes the light that crystals emit from green to blue.\nNB Crystals themselves will remain green unless the level files are suitably modified. See Tools > Textures."
+    },
+    "improved_electricity": {
+      "Title": "Electricity",
+      "Description": "Changes how the electricity effect is displayed.\n - PC: original PC electricity.\n - PSX: properly scaled semitransparent lines with stronger color."
     }
   }
 }

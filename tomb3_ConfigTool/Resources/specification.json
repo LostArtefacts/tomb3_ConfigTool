@@ -33,6 +33,17 @@
       "Image": "Graphics/graphic1.jpg",
       "Properties": [
         {
+          "Field": "blue_crystal_light",
+          "DataType": "Bool",
+          "DefaultValue": false
+        },
+        {
+          "Field": "improved_electricity",
+          "DataType": "Enum",
+          "EnumKey": "pc_psx",
+          "DefaultValue": "1"
+        },
+        {
           "Field": "footprints",
           "DataType": "Bool",
           "DefaultValue": true
@@ -197,6 +208,15 @@
         },
         {
           "Field": "psx_crystal_sfx",
+          "DataType": "Bool",
+          "DefaultValue": false,
+          "Dependency": {
+            "Field": "psx_saving",
+            "Value": false
+          }
+        },
+        {
+          "Field": "psx_saving",
           "DataType": "Bool",
           "DefaultValue": false
         },
