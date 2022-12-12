@@ -9,16 +9,19 @@ public static class Tomb3Config
 
     public static readonly string ConfigFilterExtension = "|*.json";
     public static readonly string GitHubURL = "https://github.com/lahm86/tomb3_ConfigTool";
+    public static readonly string TextureGitHubURL = "https://github.com/lahm86/TRTextureReplace";
 
     public static string ExecutableName { get; private set; }
     public static string SetupArgs { get; private set; }
     public static string GoldArgs { get; private set; }
+    public static string TextureExecutableName { get; private set; }
 
     static Tomb3Config()
     {
         ExecutableName = "tomb3.exe";
         SetupArgs = "-setup";
         GoldArgs = "-gold";
+        TextureExecutableName = "TRTextureReplace.exe";
 
         if (File.Exists(_configFile))
         {
@@ -34,6 +37,10 @@ public static class Tomb3Config
             if (externalConfig.ContainsKey(nameof(GoldArgs)))
             {
                 GoldArgs = externalConfig[nameof(GoldArgs)].ToString();
+            }
+            if (externalConfig.ContainsKey(nameof(TextureExecutableName)))
+            {
+                ExecutableName = externalConfig[nameof(TextureExecutableName)].ToString();
             }
         }
     }

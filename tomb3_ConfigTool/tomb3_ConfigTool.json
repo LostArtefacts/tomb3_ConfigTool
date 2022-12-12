@@ -1,5 +1,6 @@
 {
   "ExecutableName": "tomb3.exe",
   "SetupArgs": "-setup",
-  "GoldArgs": "-gold"
+  "GoldArgs": "-gold",
+  "TextureExecutableName": "TRTextureReplace.exe"
 }

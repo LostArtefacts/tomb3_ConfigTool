@@ -289,6 +289,29 @@ public class MainWindowViewModel : BaseLanguageViewModel
         return !IsEditorDefault;
     }
 
+    private RelayCommand _texturesCommand;
+    public ICommand TexturesCommand
+    {
+        get => _texturesCommand ??= new RelayCommand(LaunchTextureTool);
+    }
+
+    private void LaunchTextureTool()
+    {
+        string launchPath = Path.GetFullPath(Tomb3Config.TextureExecutableName);
+        if (!File.Exists(launchPath))
+        {
+            launchPath = Tomb3Config.TextureGitHubURL;
+        }
+        try
+        {
+            ProcessUtils.Start(launchPath);
+        }
+        catch (Exception e)
+        {
+            MessageBoxUtils.ShowError(e.ToString(), ViewText["window_title_main"]);
+        }
+    }
+
     private RelayCommand _gitHubCommand;
     public ICommand GitHubCommand
     {

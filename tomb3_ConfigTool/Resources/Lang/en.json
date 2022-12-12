@@ -12,6 +12,7 @@
     "command_restore": "_Restore Defaults",
     "command_import": "_Import",
     "command_export": "_Export",
+    "command_textures": "_Textures",
     "menu_help": "_Help",
     "command_github": "_GitHub",
     "command_about": "_About",

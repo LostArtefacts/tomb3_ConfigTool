@@ -60,6 +60,10 @@
                     Header="{Binding ViewText[command_export]}"/>
                 <Separator/>
                 <MenuItem
+                    Command="{Binding TexturesCommand}"
+                    Header="{Binding ViewText[command_textures]}"/>
+                <Separator/>
+                <MenuItem
                     Command="{Binding RestoreDefaultsCommand}"
                     Header="{Binding ViewText[command_restore]}"/>
             </MenuItem>
