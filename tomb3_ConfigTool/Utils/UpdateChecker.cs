@@ -96,7 +96,7 @@ public class UpdateChecker
             throw new IOException("Invalid response from GitHub - missing tag_name field.");
         }
 
-        string latestVersion = "V1.2.2";// releaseInfo["tag_name"].ToString();
+        string latestVersion = releaseInfo["tag_name"].ToString();
         if (string.Compare(latestVersion, _currentVersion, true) == 0)
         {
             return false;
