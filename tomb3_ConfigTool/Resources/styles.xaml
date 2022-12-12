@@ -63,6 +63,13 @@
         <Setter
             Property="Margin"
             Value="0,0,0,2" />
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter
+                    Property="Foreground"
+                    Value="#858585"/>
+            </Trigger>
+        </Style.Triggers>
     </Style>
 
     <Style
@@ -77,6 +84,13 @@
         <Setter
             Property="Margin"
             Value="0,0,0,10" />
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter
+                    Property="Foreground"
+                    Value="#858585"/>
+            </Trigger>
+        </Style.Triggers>
     </Style>
 
     <Style
@@ -85,6 +99,13 @@
         <Setter
             Property="VerticalContentAlignment"
             Value="Center" />
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter
+                    Property="Foreground"
+                    Value="#858585"/>
+            </Trigger>
+        </Style.Triggers>
     </Style>
 
     <Style
@@ -93,6 +114,13 @@
         <Setter
             Property="MinWidth"
             Value="150" />
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter
+                    Property="Foreground"
+                    Value="#858585"/>
+            </Trigger>
+        </Style.Triggers>
     </Style>
 
     <Style

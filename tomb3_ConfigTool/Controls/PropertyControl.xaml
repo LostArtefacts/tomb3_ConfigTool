@@ -10,7 +10,8 @@
     d:DesignHeight="450"
     d:DesignWidth="800">
     
-    <StackPanel>
+    <StackPanel
+        IsEnabled="{Binding IsAvailable}">
         <TextBlock
             Text="{Binding Title}"
             Style="{StaticResource PropertyTitleStyle}"/>

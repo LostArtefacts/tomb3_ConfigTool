@@ -34,6 +34,11 @@ public class Specification
         CategorisedProperties = JsonConvert.DeserializeObject<List<Category>>(categoryData, converter);
         Properties = new();
 
+        InitialiseProperties();
+    }
+
+    private void InitialiseProperties()
+    {
         foreach (Category category in CategorisedProperties)
         {
             foreach (BaseProperty property in category.Properties)
@@ -42,5 +47,27 @@ public class Specification
                 Properties.Add(property);
             }
         }
+
+        foreach (BaseProperty property in Properties)
+        {
+            if (property.Dependency == null)
+            {
+                continue;
+            }
+            
+            if (Properties.Find(p => p.Field == property.Dependency.Field) is BaseProperty otherProperty)
+            {
+                otherProperty.PropertyChanged += (o, e) =>
+                {
+                    TestDependency(property, otherProperty);
+                };
+                TestDependency(property, otherProperty);
+            }
+        }
+    }
+
+    private void TestDependency(BaseProperty property1, BaseProperty property2)
+    {
+        property1.IsAvailable = property2.ExportValue().Equals(property1.Dependency.Value);
     }
 }
