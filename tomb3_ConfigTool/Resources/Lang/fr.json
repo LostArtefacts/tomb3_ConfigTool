@@ -15,7 +15,7 @@
     "menu_help": "_Aide",
     "command_github": "_GitHub",
     "command_about": "_A propos",
-    "menu_update_available": "Mise à jour disponible",
+    "menu_update_available": "_Mise à jour disponible",
     "file_dialog_filter": "JSON Files",
     "checkbox_enabled": "Activé",
     "spinner_msg_invalid_number": "La valeur n'est pas un nombre valide",
