@@ -20,11 +20,15 @@ _A GUI tool for modifying the settings for [tomb3](https://github.com/Trxyebeep/
 
 Settings can also be exported and imported via the `Tools` menu options.
 
+## Texture Tool
+The GUI contains an option to launch an external texture modifying tool, [TRTextureReplace](https://github.com/lahm86/TRTextureReplace). Some settings work best with specific texture modifications in place.
+
 ## Configuration
 The tool itself has a JSON configuration file, which stores the following values.
 * `ExecutableName` - the name of the tomb3 executable file to launch using the shortcut buttons described above.
 * `SetupArgs` - argument(s) to pass to the tomb3 executable used by the `Launch Setup` button.
 * `GoldArgs` - argument(s) to pass to the tomb3 executable used by the `Launch Gold` button.
+* `TextureExecutableName` - the name of the texture tool executable file to launch using Tools > Textures in the GUI.
 
 ## Thanks
 Thank you to:
