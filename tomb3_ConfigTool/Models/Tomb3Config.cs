@@ -40,7 +40,7 @@ public static class Tomb3Config
             }
             if (externalConfig.ContainsKey(nameof(TextureExecutableName)))
             {
-                ExecutableName = externalConfig[nameof(TextureExecutableName)].ToString();
+                TextureExecutableName = externalConfig[nameof(TextureExecutableName)].ToString();
             }
         }
     }
