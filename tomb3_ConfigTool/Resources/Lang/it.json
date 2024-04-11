@@ -1,0 +1,210 @@
+{
+  "Controls": {
+    "window_title_main": "Programma di configurazione di tomb3",
+    "menu_file": "_File",
+    "command_reload": "_Ricarica",
+    "command_save": "_Salva",
+    "command_launch_setup": "Lancia tomb3 Config",
+    "command_launch_game": "_Lancia tomb3",
+    "command_launch_gold": "Lancia _Gold",
+    "command_exit": "_Esci",
+    "menu_tools": "_Strumenti",
+    "command_restore": "_Ripristina Predefiniti",
+    "command_import": "_Importa",
+    "command_export": "_Esporta",
+    "command_textures": "_Texture",
+    "menu_help": "_Aiuto",
+    "command_github": "_GitHub",
+    "command_about": "_Informazioni su",
+    "menu_update_available": "_Aggiornamento Disponibile",
+    "file_dialog_filter": "File JSON",
+    "checkbox_enabled": "Abilitato",
+    "spinner_msg_invalid_number": "Il valore immesso non è un numero valido",
+    "spinner_msg_comparison_failed": "Il valore immesso deve essere compreso tra {0} e {1}",
+    "spinner_increase": "Aumenta il valore",
+    "spinner_decrease": "Diminuisci il valore",
+    "label_saved": "Salvato",
+    "label_unsaved": "Non salvato",
+    "command_close": "_Chiudi",
+    "msgbox_unsaved_changes": "Vuoi salvare le modifiche apportate?",
+    "msgbox_unsaved_changes_reload": "Sei sicuro di voler ricaricare e perdere le modifiche apportate?",
+    "window_title_about": "Informazioni sul Programma di configurazione di tomb3",
+    "label_about_details": "Per ulteriori informazioni, visita la pagina GitHub del Programma di configurazione di tomb3.",
+    "link_github": "Visita il sito GitHub"
+  },
+  "Enums": {
+    "sophia_rings": {
+      "0": "PC",
+      "1": "PSX",
+      "2": "PC migliorato"
+    },
+    "gui_scale": {
+      "0.50000": "50%",
+      "0.70000": "70%",
+      "1.00000": "100%",
+      "1.50000": "150%",
+      "2.00000": "200%"
+    },
+    "pc_psx": {
+      "0": "PC",
+      "1": "PSX"
+    },
+    "bar_position": {
+      "0": "PC",
+      "1": "PC migliorato",
+      "2": "PSX"
+    },
+    "music_state": {
+      "1.00000": "Completo",
+      "0.80000": "Ridotto",
+      "0.00000": "Nessuno"
+    }
+  },
+  "Categories": {
+    "effects": "Effetti",
+    "gui_scale": "Scala Interfaccia",
+    "gui_style": "Stile Interfaccia",
+    "lara": "Mosse di Lara",
+    "misc": "Varie",
+    "sound": "Suono",
+    "view": "Visualizzazione"
+  },
+  "Properties": {
+    "footprints": {
+      "Title": "Impronte",
+      "Description": "Abilita la visualizzazione delle impronte come nella versione PSX."
+    },
+    "improved_lasers": {
+      "Title": "Laser migliorati",
+      "Description": "Abilita il ridimensionamento corretto dei laser e li trasforma in quadrilateri semitrasparenti invece che in linee opache."
+    },
+    "improved_rain": {
+      "Title": "Pioggia migliorata",
+      "Description": "Abilita il ridimensionamento corretto della pioggia; la trasforma in quadrilateri semitrasparenti invece che in linee opache; modifica il colore in modo che corrisponda a quello della versione PSX."
+    },
+    "kayak_mist": {
+      "Title": "Nebbia Kayak",
+      "Description": "Ripristina l'effetto nebbia non funzionante sul Kayak."
+    },
+    "sophia_rings": {
+      "Title": "Anelli di Sofia",
+      "Description": "Cambia il modo in cui vengono visualizzati gli anelli di Sophia.\n - PC: anelli originali versione PC.\n - PSX: anelli semitrasparenti come nella versione PSX.\n - PC migliorato: anelli originali versione PC, ma con texture migliorate."
+    },
+    "uwdust": {
+      "Title": "Particelle sott'acqua",
+      "Description": "Ripristina gli effetti particellari visibili sott'acqua della versione PSX."
+    },
+    "upv_wake": {
+      "Title": "Scia VPS",
+      "Description": "Ripristina l'effetto scia del Veicolo a Propulsione Subacquea della versione PSX."
+    },
+    "GUI_Scale": {
+      "Title": "Scala dell'interfaccia",
+      "Description": "Modifica le dimensioni degli elementi di gioco, come le barre della vita e dell'ossigeno."
+    },
+    "INV_Scale": {
+      "Title": "Scala interfaccia dell'inventario",
+      "Description": "Modifica le dimensioni degli elementi nell'inventario, come le caselle di testo."
+    },
+    "ammo_counter": {
+      "Title": "Contatore delle munizioni",
+      "Description": "Cambia la modalità di visualizzazione del contatore delle munizioni. Tieni presente che la selezione di 'Posizioni delle barre di stato' su 'PSX' annullerà questa impostazione, attivando il contatore delle munizioni della versione PSX.\n - PC: posizione originale versione PC.\n - PSX: contatore munizioni versione PSX."
+    },
+    "bar_pos": {
+      "Title": "Posizioni delle barre di stato",
+      "Description": "Modifica la posizione delle barre di stato.\n - PC: posizione originale versione PC.\n - PSX: posizione versione PSX.\n - PC migliorato: equivalente a 'PC', ma inverte le barre dello sprint e dell'ossigeno."
+    },
+    "bar_mode": {
+      "Title": "Stile delle barre di stato",
+      "Description": "Modifica lo stile delle barre di stato.\n - PC: stile originale versione PC.\n - PSX: stile versione PSX."
+    },
+    "improved_poison_bar": {
+      "Title": "Barra di avvelenamento migliorata",
+      "Description": "Abilita la barra di avvelenamento in stile PSX al posto della barra gialla piatta originale."
+    },
+    "pickup_display": {
+      "Title": "Visualizza gli oggetti raccolti",
+      "Description": "Ripristina la visualizzazione degli oggetti su schermo quando Lara li raccoglie."
+    },
+    "psx_boxes": {
+      "Title": "Caselle di testo PSX",
+      "Description": "Abilita le caselle di testo dalla versione PSX."
+    },
+    "psx_mono": {
+      "Title": "Colori monocromatici PSX",
+      "Description": "Abilita i colori monocromatici dello sfondo in stile PSX nella schermata di pausa e nell'inventario."
+    },
+    "psx_text_colors": {
+      "Title": "Colori dei testi PSX",
+      "Description": "Abilita i colori dei testi della versione PSX."
+    },
+    "shadow_mode": {
+      "Title": "Modalità ombre",
+      "Description": "Modifica la modalità di visualizzazione delle ombre.\n - PC: ombre ottagonali originali.\n - PSX: ombre circolari PSX."
+    },
+    "crawl_tilt": {
+      "Title": "Inclinazione mentre striscia",
+      "Description": "Permette a Lara di allinearsi al terreno mentre gattona."
+    },
+    "duck_roll": {
+      "Title": "Capriola mentre si è accovacciati",
+      "Description": "Permette di eseguire una capriola mentre Lara è in ginocchio. Una volta accovacciato, premi il tasto Sprint per attivare questa mossa."
+    },
+    "flexible_crawl": {
+      "Title": "Movimenti fluidi",
+      "Description": "Consente un minor ritardo nei movimenti di Lara e ripristina le animazioni di corsa-accovacciarsi e sprint-capriola."
+    },
+    "flexible_sprint": {
+      "Title": "Rimozione restrizione dello sprint",
+      "Description": "Rimuove la restrizione in cui per iniziare uno sprint è necessario che la barra sia piena."
+    },
+    "slide_to_run": {
+      "Title": "Scivola e corri",
+      "Description": "Ripristina l'animazione scivola-corri. Tieni premuto il tasto Corri alla fine dello scivolamento da un pendio."
+    },
+    "disable_ckey": {
+      "Title": "Colorkey",
+      "Description": "Disabilita questa opzione solo se riscontri il bug delle trasparenze su schede grafiche Nvidia. Potrebbe causare altri problemi minori."
+    },
+    "disable_gamma": {
+      "Title": "Gamma",
+      "Description": "Dibilitando questa opzione, è possibile ottenere un output RGB più accurato."
+    },
+    "dozy": {
+      "Title": "DOZY",
+      "Description": "Abilita il trucco Volo.\n - Tieni premuti i tasti D O Z Y sulla tastiera per volare.\n - Premi il tasto Cammina per disattivare il trucco."
+    },
+    "psx_crystal_sfx": {
+      "Title": "Effetto sonoro dei cristalli PSX",
+      "Description": "Abilita l'effetto sonoro \"woosh\" della versione PSX quando raccogli i cristalli invece dell'effetto sonoro della cura della versione PC."
+    },
+    "custom_water_color": {
+      "Title": "Colore dell'acqua PSX",
+      "Description": "Abilita il colore dell'acqua della versione PSX"
+    },
+    "inv_music_mute": {
+      "Title": "Gestione della musica nell'inventario",
+      "Description": "Cambia la gestione della musica nell'inventario.\n - Nessuno: continua a riprodurre la musica a volume normale.\n - Ridotto: continua a riprodurre la musica a volume ridotto.\n - Completo: mette in pausa la musica mentre sei nell'inventario."
+    },
+    "unwater_music_mute": {
+      "Title": "Gestione della musica sott'acqua",
+      "Description": "Cambia la gestione della musica sott'acqua.\n - Nessuno: continua a riprodurre la musica a volume normale.\n - Ridotto: continua a riprodurre la musica a volume ridotto.\n - Completo: mette in pausa la musica mentre sei sott'acqua."
+    },
+    "psx_fov": {
+      "Title": "Campo visivo PSX",
+      "Description": "Abilita il campo visivo della versione PSX."
+    },
+    "psx_saving": {
+      "Title": "Salvataggio della partita PSX",
+      "Description": "Abilita il sistema di salvataggio della versione PSX (è possibile salvare la partita solo con i cristalli di salvataggio). Si consiglia di avviare una nuova partita quando si modifica questa opzione.\nNB Abilitando questa opzione verrà utilizzato l'effetto sonoro PSX dei cristalli."
+    },
+    "blue_crystal_light": {
+      "Title": "Luce dei cristalli blu",
+      "Description": "Cambia la luce emessa dai cristalli da verde a blu.\nNB I cristalli stessi rimarranno verdi a meno che i file di livello non vengano opportunamente modificati.\nVedi Strumenti > Texture."
+    },
+    "improved_electricity": {
+      "Title": "Elettricità",
+      "Description": "Cambia il modo in cui viene visualizzato l'effetto dell'elettricità.\n - PC: effetto elettricità originale versione PC.\n - PSX: linee semitrasparenti opportunamente scalate con colore più forte."
+    }
+  }
+}
