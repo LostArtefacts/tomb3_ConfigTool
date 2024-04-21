@@ -20,11 +20,11 @@
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
 	<ApplicationIcon>Resources\icon.ico</ApplicationIcon>
 	
-    <Version>1.2.2</Version>
-    <AssemblyVersion>1.2.2</AssemblyVersion>
-    <FileVersion>1.2.2</FileVersion>
+    <Version>1.3.0</Version>
+    <AssemblyVersion>1.3.0</AssemblyVersion>
+    <FileVersion>1.3.0</FileVersion>
     <Product>tomb3 Configuration Tool</Product>
-    <Copyright>Copyright © Tomb Raider Community 2022</Copyright>
+    <Copyright>Copyright © Tomb Raider Community 2024</Copyright>
   </PropertyGroup>
   
   <ItemGroup>
