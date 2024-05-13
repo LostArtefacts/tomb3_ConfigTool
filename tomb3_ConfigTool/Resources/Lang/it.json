@@ -87,8 +87,8 @@
       "Description": "Ripristina l'effetto nebbia non funzionante sul Kayak."
     },
     "sophia_rings": {
-      "Title": "Anelli di Sofia",
-      "Description": "Cambia il modo in cui vengono visualizzati gli anelli di Sophia.\n - PC: anelli originali versione PC.\n - PSX: anelli semitrasparenti come nella versione PSX.\n - PC migliorato: anelli originali versione PC, ma con texture migliorate."
+      "Title": "Scariche di energia di Sofia",
+      "Description": "Cambia il modo in cui vengono visualizzate le scariche di energia verdi di Sophia.\n - PC: originali versione PC.\n - PSX: semitrasparenti come nella versione PSX.\n - PC migliorato: originali versione PC, ma con texture migliorate."
     },
     "uwdust": {
       "Title": "Particelle sott'acqua",
@@ -108,11 +108,11 @@
     },
     "ammo_counter": {
       "Title": "Contatore delle munizioni",
-      "Description": "Cambia la modalità di visualizzazione del contatore delle munizioni. Tieni presente che la selezione di 'Posizioni delle barre di stato' su 'PSX' annullerà questa impostazione, attivando il contatore delle munizioni della versione PSX.\n - PC: posizione originale versione PC.\n - PSX: contatore munizioni versione PSX."
+      "Description": "Cambia la modalità di visualizzazione del contatore delle munizioni. Tieni presente che la selezione di 'Posizione delle barre di stato' su 'PSX' annullerà questa impostazione, attivando il contatore delle munizioni della versione PSX.\n - PC: posizione originale versione PC.\n - PSX: contatore munizioni versione PSX."
     },
     "bar_pos": {
-      "Title": "Posizioni delle barre di stato",
-      "Description": "Modifica la posizione delle barre di stato.\n - PC: posizione originale versione PC.\n - PSX: posizione versione PSX.\n - PC migliorato: equivalente a 'PC', ma inverte le barre dello sprint e dell'ossigeno."
+      "Title": "Posizione delle barre di stato",
+      "Description": "Modifica la posizione delle barre di stato.\n - PC: posizione originale versione PC.\n - PSX: posizione versione PSX.\n - PC migliorato: equivalente a 'PC', ma inverte le barre dello scatto e dell'ossigeno."
     },
     "bar_mode": {
       "Title": "Stile delle barre di stato",
@@ -148,15 +148,15 @@
     },
     "duck_roll": {
       "Title": "Capriola mentre si è accovacciati",
-      "Description": "Permette di eseguire una capriola mentre Lara è in ginocchio. Una volta accovacciato, premi il tasto Sprint per attivare questa mossa."
+      "Description": "Permette di eseguire una capriola mentre Lara è in ginocchio. Una volta accovacciato, premi il tasto Scatto per attivare questa mossa."
     },
     "flexible_crawl": {
       "Title": "Movimenti fluidi",
-      "Description": "Consente un minor ritardo nei movimenti di Lara e ripristina le animazioni di corsa-accovacciarsi e sprint-capriola."
+      "Description": "Consente un minor ritardo nei movimenti di Lara e ripristina le animazioni di corsa-accovacciarsi e scatto-capriola."
     },
     "flexible_sprint": {
-      "Title": "Rimozione restrizione dello sprint",
-      "Description": "Rimuove la restrizione in cui per iniziare uno sprint è necessario che la barra sia piena."
+      "Title": "Rimozione restrizione dello scatto",
+      "Description": "Rimuove la restrizione in cui per iniziare uno scatto è necessario che la barra sia piena."
     },
     "slide_to_run": {
       "Title": "Scivola e corri",
@@ -203,7 +203,7 @@
       "Description": "Cambia la luce emessa dai cristalli da verde a blu.\nNB I cristalli stessi rimarranno verdi a meno che i file di livello non vengano opportunamente modificati.\nVedi Strumenti > Texture."
     },
     "improved_electricity": {
-      "Title": "Elettricità",
+      "Title": "Effetto elettricità",
       "Description": "Cambia il modo in cui viene visualizzato l'effetto dell'elettricità.\n - PC: effetto elettricità originale versione PC.\n - PSX: linee semitrasparenti opportunamente scalate con colore più forte."
     }
   }
